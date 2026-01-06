@@ -16,13 +16,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: $blue;
+    color: $brand-color;
 
     &,
     &:hover,
     &:visited {
         //text-decoration: none;
-        color: $blue;
+        color: $brand-color;
     }
 }
 
@@ -42,10 +42,14 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+	&:hover {
+            text-decoration: solid underline 2px;
+	}
     }
 
     @include media-query($on-palm) {
         position: absolute;
+        z-index: 1;
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;

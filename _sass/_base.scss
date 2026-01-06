@@ -102,11 +102,13 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($brand-color, 30%);
     }
 
-    &:hover {
+    &:hover span {
         color: $grey-color-dark;
+        text-decoration: solid underline 2px;
+
     }
 }
 
@@ -206,4 +208,12 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+/**
+ * Icons
+ */
+.rss-subscribe {
+    font-size: $small-font-size;
 }
