@@ -4,11 +4,40 @@
     <title>Ιστιοπλοϊκά Μαθηματικά</title>
     <description>Ένας χώρος για μαθηματικά ιστιοπλοΐα και άλλα πολλά!!
 </description>
-    <link>/sailing-maths/</link>
-    <atom:link href="/sailing-maths/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jul 2024 20:48:44 +0300</pubDate>
-    <lastBuildDate>Thu, 04 Jul 2024 20:48:44 +0300</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/sailing-maths/</link>
+    <atom:link href="http://localhost:4000/sailing-maths/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Jan 2026 22:41:04 +0200</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2026 22:41:04 +0200</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Εξάντας και Αστροναυτιλία</title>
+        <description>&lt;p&gt;Ο εξάντας είναι ένα όργανο που μετρά την γωνία μεταξύ δύο ορατών σημείων. Στην αστροναυτιλία χρησιμοποιήται συνήθως για την μέτρηση της γωνίας που σχηματίζεται μεταξύ ενος ουράνιου σώματως (αστέρα ή πλανήτη) και του ορίζοντα της θαλασσας.&lt;/p&gt;
+
+&lt;p&gt;Στο παρακάτω σχήμα με πορτοκαλί βέλη συμβολίζονται οι ακτίνες του ηλίου (ή οποιουδήποτε ουράνιου σώματος).
+Με τον κύκλο συμβολίζεται η σφαιρική γή. Πάνω στον κύκλο έχουμε σημειώσει δύο σημεία: το “ΑΝ” για τον άνθρωπο που κάνει την μέτρηση και το “ΑΣ” για το σημείο όπου το αστρικό σώμα βρίσκεται κατακόρυφα προς τα πάνω.
+Αν το ουράνιο σώμα είναι πάρα πολύ μακριά (μακρύτερα από ότι στο σχήμα) τότε οι ακτίνες τείνουν να είναι σχεδόν παράλληλες σε διαφορετικά σημεία της γής.&lt;/p&gt;
+
+&lt;p&gt;Στο σημείο “ΑΝ” κάποιος κάνει μια μέτρηση γωνίας του ήλιου και ορίζοντα και βρήσκει τη γωνία  \(α=60^ο\) μοίρες.
+Η γωνία μεταξύ του ορίζοντα και της κατακόρυφης ευθείας είναι \(90^ο\) άρα η γωνία \(β\) στο σχήμα είναι \(β = 90^ο - α = 90^ο - 30^ο = 60^ο\)&lt;/p&gt;
+
+&lt;p&gt;Οι γωνίες \(β\) και \(β’\) είναι ίσες. Συνεπώς ο άνθρωπος που έκανε την μέτρηση στο σημείο \(‘ΑΝ’\) βρίσκεται σε απόσταση 30 μοιρών από το σημείο ‘ΑΣ’. 
+Αν ξέρουμε που είναι το σημείο ‘ΑΣ’ μπορούμε να σχεδιάσουμε στην υδρόγειο έναν κύκλό πάνω στον οποίο βρισκόμαστε.&lt;/p&gt;
+
+&lt;p&gt;Επαναλαμβάνουμε την διαδικασία με άλλο ουράνιο σώμα και σχεδιάζουμε ένα νέο κύκλο. Ο νέος κύκλος τέμνει τον προηγούμενο σε δύο σημεία. Βρισκόμαστε σε ένα από αυτά τα δύο σημεία τομής.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/sailing-maths/images/sextant-angles.png&quot; alt=&quot;sextant-angles&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ο παραπάνω υπολογισμός αγνοεί κάποια σφάλματα λόγω διάθλασης. Επίσης απαιτεί χρήση υδρόγειου σφαίρας κατά προτίμηση σε μεγάλο μέγεθος.
+Στην πράξη όταν κάνουμε αστροναυτιλία η διαδικασία μπορεί να γίνει λίγο διαφορετική ώστε να έχουμε μεγαλύτερη ακρύβεια και να αποφύγουμε την χρήση σφαίρας.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 28 Dec 2025 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/sailing-maths/topics/idea-tou-eksanta/</link>
+        <guid isPermaLink="true">http://localhost:4000/sailing-maths/topics/idea-tou-eksanta/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Υπολογισμός περιμέτρου της γης</title>
@@ -18,7 +47,7 @@
 &lt;ul&gt;
   &lt;li&gt;Ένα σημείο στη γη όπου για κάποια χρονική στιγμή ο ήλιος πέφτει εντελώς κάθετα (σημείο Α στο σχήμα).&lt;/li&gt;
   &lt;li&gt;Ένα άλλο σημείο Β στη γη και η γνώση της απόστασης ΑΒ.&lt;/li&gt;
-  &lt;li&gt;Μέτρηση της γωνίας πρόσπτωσης του ήλιου στο σημείο Β τη χρονική στιγμή που ο ήλιος πέφτει κάθετα στο σημείο Α.&lt;/li&gt;
+  &lt;li&gt;Μέτρηση της γωνίας πρόσπτωσης του ήλιου στο σημείο Β (γωνία α στο σχήμα) τη χρονική στιγμή που ο ήλιος πέφτει κάθετα στο σημείο Α.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/sailing-maths/images/eratosthenis-globe.png&quot; alt=&quot;name of the image&quot; /&gt;&lt;/p&gt;
@@ -32,8 +61,8 @@
 
 </description>
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0300</pubDate>
-        <link>/sailing-maths/topics/perimetros-tis-gis/</link>
-        <guid isPermaLink="true">/sailing-maths/topics/perimetros-tis-gis/</guid>
+        <link>http://localhost:4000/sailing-maths/topics/perimetros-tis-gis/</link>
+        <guid isPermaLink="true">http://localhost:4000/sailing-maths/topics/perimetros-tis-gis/</guid>
         
         
       </item>
@@ -103,8 +132,8 @@
 
 </description>
         <pubDate>Wed, 12 Oct 2022 00:00:00 +0300</pubDate>
-        <link>/sailing-maths/topics/oratos-orizontas/</link>
-        <guid isPermaLink="true">/sailing-maths/topics/oratos-orizontas/</guid>
+        <link>http://localhost:4000/sailing-maths/topics/oratos-orizontas/</link>
+        <guid isPermaLink="true">http://localhost:4000/sailing-maths/topics/oratos-orizontas/</guid>
         
         
       </item>
