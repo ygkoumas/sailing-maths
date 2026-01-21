@@ -9,7 +9,7 @@
 title: Ιστιοπλοϊκά Μαθηματικά
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Ένας χώρος για μαθηματικά ιστιοπλοΐα και άλλα πολλά!!
+  Ένας χώρος για μαθηματικά, ιστιοπλοΐα και άλλα πολλά!!
 baseurl: "/sailing-maths" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username: ygkoumas/sailing-maths
