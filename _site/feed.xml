@@ -6,9 +6,76 @@
 </description>
     <link>http://localhost:4000/sailing-maths/</link>
     <atom:link href="http://localhost:4000/sailing-maths/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Jan 2026 00:37:58 +0200</pubDate>
-    <lastBuildDate>Wed, 07 Jan 2026 00:37:58 +0200</lastBuildDate>
+    <pubDate>Wed, 21 Jan 2026 23:56:55 +0200</pubDate>
+    <lastBuildDate>Wed, 21 Jan 2026 23:56:55 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Υπολογισμός απόστασης μετάκεντρου και κέντρου άνωσης σκάφους</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Με απλά λόγια:
+\[BM = \frac{I_{wl}}{\nabla} \]
+όπου:&lt;/p&gt;
+
+  &lt;p&gt;\(BM\) η απόσταση μετάκεντρου και κέντρου άνωσης σκάφους&lt;/p&gt;
+
+  &lt;p&gt;\(I_{wl}\) η ροπή αδράνειας επιφάνειας της τομής γάστρας και επιπέδου της θάλασσας&lt;/p&gt;
+
+  &lt;p&gt;\( \nabla \) ο όγκος του σκάφους που βρίσκεται μέσα στο νερό.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/sailing-maths/images/bm-stability.png&quot; alt=&quot;sextant-angles&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Χωρίς βλάβη της γενικότητας θα υποθέσουμε οτι το σκάφος δεν έχει μήκος και θα δουλέψουμε στην γεωμετρία των δύο διαστάσεων που βλέπουμε στο σχήμα.&lt;/p&gt;
+
+&lt;p&gt;Στο σχήμα βλέπουμε μια μικρή μεταβολή στο σκάφος κατά την γωνία \(α\). Η μπλε διακεκομένη γραμμή είναι η θάλασσα μετά την μεταβολή \(α\).&lt;/p&gt;
+
+&lt;p&gt;Η παρακάτω εξίσωση θα μπορούσε να είναι ο ορισμός του μετακέντρου:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+BB’ = α \cdot BM  \label{eq:clock}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Με την μεταβόλη κατα \(α\) μοίρες το κέντρο άνωσης μετατοπίζεται. Μπορούμε να υπολογίσουμε την μετατόπηση ολοκληρόνοντας!!&lt;/p&gt;
+
+&lt;p&gt;\[BB’ \approx \frac{\int_{O\overset{\triangle}{L}L’} r dA}{\nabla} + \frac{\int_{O\overset{\triangle}{R}R’}  r dA}{\nabla}\]&lt;/p&gt;
+
+&lt;p&gt;όπου \(r\) η απόσταση από το σημείο \(O\).&lt;/p&gt;
+
+&lt;p&gt;Συνεπώς:&lt;/p&gt;
+
+&lt;p&gt;\[
+  BB’ \approx \frac{\int_0^{OL} α’ \cdot r \cdot r dr}{\nabla} + \frac{\int_0^{OR} α’’ \cdot r \cdot r dr}{\nabla}
+\]
+Είναι εύκολο να αποδείξουμε πως \(α = α’ = α’’ \)&lt;/p&gt;
+
+&lt;p&gt;άρα:&lt;/p&gt;
+
+&lt;p&gt;\[ BB’ \approx α \frac{\int_0^{OL} r^2 dr}{\nabla} + α \frac{\int_0^{OR}  r^2 dr}{\nabla} \]
+ ή
+ \[ BB’ \approx α \frac{\int_0^{OL} r^2 dr + \int_0^{OR}  r^2 dr}{\nabla} \]
+ ή
+\begin{equation}
+  BB’ \approx α \frac{I_{wl}}{\nabla}
+  \label{eq:wl} 
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Συνδιάζοντας τις σχέσεις
+\eqref{eq:clock}
+\eqref{eq:wl}
+καταλήγουμε στο υπέροχο συμπέρασμα.&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+BM \approx \frac{I_{wl}}{\nabla} 
+\end{equation}&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 21 Jan 2026 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/sailing-maths/topics/bm-formula/</link>
+        <guid isPermaLink="true">http://localhost:4000/sailing-maths/topics/bm-formula/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Εξάντας και Αστροναυτιλία</title>

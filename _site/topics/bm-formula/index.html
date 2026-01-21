@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Υπολογισμός περιμέτρου της γης</title>
-  <meta name="description" content="Η πρώτη ιστορικά τεκμηριωμένη μέτρηση της περιμέτρου της Γης αποδίδεται στον Ερατοσθένη τον Κυρηναίο, τον 3ο αι. π.Χ.">
+  <title>Υπολογισμός απόστασης μετάκεντρου και κέντρου άνωσης σκάφους</title>
+  <meta name="description" content="  Με απλά λόγια:\[BM = \frac{I_{wl}}{\nabla} \]όπου:  \(BM\) η απόσταση μετάκεντρου και κέντρου άνωσης σκάφους  \(I_{wl}\) η ροπή αδράνειας επιφάνειας της το...">
 
   <link rel="stylesheet" href="/sailing-maths/css/main.css">
-  <link rel="canonical" href="/sailing-maths/topics/perimetros-tis-gis/">
+  <link rel="canonical" href="/sailing-maths/topics/bm-formula/">
   <link rel="alternate" type="application/rss+xml" title="Ιστιοπλοϊκά Μαθηματικά" href="/sailing-maths/feed.xml">
   <script>window.MathJax = {  tex: { tags: 'ams' } };</script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
@@ -65,39 +65,78 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Υπολογισμός περιμέτρου της γης</h1>
+    <h1 class="post-title" itemprop="name headline">Υπολογισμός απόστασης μετάκεντρου και κέντρου άνωσης σκάφους</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Η πρώτη ιστορικά τεκμηριωμένη μέτρηση της περιμέτρου της Γης αποδίδεται στον Ερατοσθένη τον Κυρηναίο, τον 3ο αι. π.Χ.</p>
+    <blockquote>
+  <p>Με απλά λόγια:
+\[BM = \frac{I_{wl}}{\nabla} \]
+όπου:</p>
 
-<p>Για τη μέθοδο αυτή χρειάζεται:</p>
-<ul>
-  <li>Ένα σημείο στη γη όπου για κάποια χρονική στιγμή ο ήλιος πέφτει εντελώς κάθετα (σημείο Α στο σχήμα).</li>
-  <li>Ένα άλλο σημείο Β στη γη και η γνώση της απόστασης ΑΒ.</li>
-  <li>Μέτρηση της γωνίας πρόσπτωσης του ήλιου στο σημείο Β (γωνία α στο σχήμα) τη χρονική στιγμή που ο ήλιος πέφτει κάθετα στο σημείο Α.</li>
-</ul>
+  <p>\(BM\) η απόσταση μετάκεντρου και κέντρου άνωσης σκάφους</p>
 
-<p><img src="/sailing-maths/images/eratosthenis-globe.png" alt="name of the image" /></p>
+  <p>\(I_{wl}\) η ροπή αδράνειας επιφάνειας της τομής γάστρας και επιπέδου της θάλασσας</p>
 
-<blockquote>
-  <p>Η περίμετρος της γης υπολογίζεται από τον τύπο:
-\[περίμετρος = ΑΒ \cdot \frac{360}{α} \]</p>
+  <p>\( \nabla \) ο όγκος του σκάφους που βρίσκεται μέσα στο νερό.</p>
 </blockquote>
 
-<p>Ο παραπάνω υπολογισμός έχει μια παραδοχή. Θεωρούμε πως οι ακτίνες του ήλιου είναι παράλληλες μεταξύ τους. Στην πραγματικότητα έχουν μια μικρή απόκλιση.</p>
+<p><img src="/sailing-maths/images/bm-stability.png" alt="sextant-angles" /></p>
+
+<p>Χωρίς βλάβη της γενικότητας θα υποθέσουμε οτι το σκάφος δεν έχει μήκος και θα δουλέψουμε στην γεωμετρία των δύο διαστάσεων που βλέπουμε στο σχήμα.</p>
+
+<p>Στο σχήμα βλέπουμε μια μικρή μεταβολή στο σκάφος κατά την γωνία \(α\). Η μπλε διακεκομένη γραμμή είναι η θάλασσα μετά την μεταβολή \(α\).</p>
+
+<p>Η παρακάτω εξίσωση θα μπορούσε να είναι ο ορισμός του μετακέντρου:</p>
+
+<p>\begin{equation}
+BB’ = α \cdot BM  \label{eq:clock}
+\end{equation}</p>
+
+<p>Με την μεταβόλη κατα \(α\) μοίρες το κέντρο άνωσης μετατοπίζεται. Μπορούμε να υπολογίσουμε την μετατόπηση ολοκληρόνοντας!!</p>
+
+<p>\[BB’ \approx \frac{\int_{O\overset{\triangle}{L}L’} r dA}{\nabla} + \frac{\int_{O\overset{\triangle}{R}R’}  r dA}{\nabla}\]</p>
+
+<p>όπου \(r\) η απόσταση από το σημείο \(O\).</p>
+
+<p>Συνεπώς:</p>
+
+<p>\[
+  BB’ \approx \frac{\int_0^{OL} α’ \cdot r \cdot r dr}{\nabla} + \frac{\int_0^{OR} α’’ \cdot r \cdot r dr}{\nabla}
+\]
+Είναι εύκολο να αποδείξουμε πως \(α = α’ = α’’ \)</p>
+
+<p>άρα:</p>
+
+<p>\[ BB’ \approx α \frac{\int_0^{OL} r^2 dr}{\nabla} + α \frac{\int_0^{OR}  r^2 dr}{\nabla} \]
+ ή
+ \[ BB’ \approx α \frac{\int_0^{OL} r^2 dr + \int_0^{OR}  r^2 dr}{\nabla} \]
+ ή
+\begin{equation}
+  BB’ \approx α \frac{I_{wl}}{\nabla}
+  \label{eq:wl} 
+\end{equation}</p>
+
+<p>Συνδιάζοντας τις σχέσεις
+\eqref{eq:clock}
+\eqref{eq:wl}
+καταλήγουμε στο υπέροχο συμπέρασμα.</p>
+
+<p>\begin{equation}
+BM \approx \frac{I_{wl}}{\nabla} 
+\end{equation}</p>
 
 
   </div>
   <footer>
    <p class="post-meta">
-    <time datetime="2024-07-01T00:00:00+03:00" itemprop="datePublished">
+    <time datetime="2026-01-21T00:00:00+02:00" itemprop="datePublished">
      
      
      Δημοσιεύθηκε: 
-     1 Ιουλίου 2024
+     21 Ιανουαρίου 2026
     </time>
-    
+     <br> Αρθρογράφος: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Γιάννης Γκούμας</span></span>
    </p>
   </footer>
 </article>
