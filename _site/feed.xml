@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/sailing-maths/</link>
     <atom:link href="http://localhost:4000/sailing-maths/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Jan 2026 21:56:41 +0200</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2026 21:56:41 +0200</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 22:09:14 +0200</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 22:09:14 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -24,8 +24,9 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Υπάρχει μία και μόνο μία απεικόνιση από την υδρόγειο σφαίρα (γεωγραφικό μήκος και πλάτος) στο καρτεσιανό επίπεδο που ικανοποιεί τα παραπάνω αιτήματα. Είναι η παρακάτω απεικόνιση:&lt;/p&gt;
-
 &lt;blockquote&gt;
+  &lt;p&gt;Μερκατορική Απεικόνιση:&lt;/p&gt;
+
   &lt;p&gt;\(θ \longmapsto x(θ) = ρ \cdot θ  \)&lt;/p&gt;
 
   &lt;p&gt;\(φ \longmapsto y(φ) = ρ \cdot ln( \frac{1}{συν(φ)} + εφ(φ) )  \)&lt;/p&gt;
@@ -39,7 +40,7 @@
 
 &lt;p&gt;Αν καταλάβατε μέχρι εδώ μπορείτε να παρακάμψετε την επόμενη παράγραφο.&lt;/p&gt;
 
-&lt;h2 id=&quot;κυλινδρική-απεικόνιση&quot;&gt;Κυλινδρική απεικόνιση&lt;/h2&gt;
+&lt;h2 id=&quot;κυλινδρική-απεικόνιση-&quot;&gt;Κυλινδρική απεικόνιση ⚠&lt;/h2&gt;
 &lt;p&gt;Ποτέ μα ποτέ μην πειστείτε πως ο μερκατορικός χάρτης είναι το αποτέλεσμα τυλίγματος της γής σε έναν κύλινδρο. 
 Υπάρχουν πολλά σχήματα στο διαδίχτιο αλλά και σε βιβλία που απεικονίζουν ευθείες γραμμές που ξεκινούν από το κέντρο της γής, σχίζουν την επιφάνειά της και καταλήγουν στον κύλινδρο.
 &lt;img src=&quot;/sailing-maths/images/earth-to-cylinder-map.png&quot; alt=&quot;sextant-angles&quot; /&gt;&lt;/p&gt;
