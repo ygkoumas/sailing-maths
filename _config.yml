@@ -18,3 +18,7 @@ github_username: ygkoumas/sailing-maths
 markdown: kramdown
 
 permalink: topics/:title/
+
+collections:
+  notes:
+    output: true
